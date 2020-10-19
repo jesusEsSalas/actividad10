@@ -17,7 +17,8 @@ class MainWindow(QMainWindow):
 
     @Slot()
     def click_mostrar(self):
-        self.admin.mostrar()
+        self.ui.salida_Particulas.clear()
+        self.ui.salida_Particulas.insertPlainText(str(self.admin))
     
     @Slot()
     def click_agregarInicio(self):

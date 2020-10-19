@@ -147,10 +147,10 @@ class Ui_MainWindow(object):
 
         self.formLayout.setWidget(0, QFormLayout.LabelRole, self.groupBox_Particulas)
 
-        self.plainTextEdit = QPlainTextEdit(self.centralwidget)
-        self.plainTextEdit.setObjectName(u"plainTextEdit")
+        self.salida_Particulas = QPlainTextEdit(self.centralwidget)
+        self.salida_Particulas.setObjectName(u"salida_Particulas")
 
-        self.formLayout.setWidget(0, QFormLayout.FieldRole, self.plainTextEdit)
+        self.formLayout.setWidget(0, QFormLayout.FieldRole, self.salida_Particulas)
 
         MainWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QStatusBar(MainWindow)
