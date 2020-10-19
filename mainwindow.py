@@ -13,6 +13,7 @@ class MainWindow(QMainWindow):
         self.ui.setupUi(self)
         self.ui.pushButton_Mostrar.clicked.connect(self.click_mostrar)
         self.ui.pushButton_AgregarInicio.clicked.connect(self.click_agregarInicio)
+        self.ui.pushButton_AgregarFinal.clicked.connect(self.click_agregarFinal)
 
 
     @Slot()
