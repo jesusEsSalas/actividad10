@@ -32,7 +32,7 @@ class MainWindow(QMainWindow):
         red = self.ui.spinBox_red.value()
         green = self.ui.spinBox_green.value()
         blue = self.ui.spinBox_blue.value()
-
+        a = 10
         particula = Particula(id, origen_x, origen_y, destino_x, destino_y, velocidad, red, green, blue)
         self.admin.agregar_inicio(particula)
 
