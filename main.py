@@ -3,6 +3,7 @@ import sys
 from mainwindow import MainWindow
 
 #pyside2-uic mainwindow.ui > ui_mainwindow.py
+lista = []
 app = QApplication()
 window = MainWindow()
 window.show()
